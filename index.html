@@ -6,23 +6,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact Us</title>
 </head>
-<body bgcolor="green">
+
     <header>
     <h1>Contact Us</h1>
     <p>If you have any questions, feel free to reach out!</p>
     <h2>Get in Touch</h2>
     <form>
         <label for="name">Name:</label><br>
-        <input type="text" name="name" id="name"> <br>
+        <input type="text" name="name" id="name" required> <br>
 
         <label for="email">Email:</label><br>
-        <input type="text" name="email:" id="email:"><br>
+        <input type="email" name="email" id="email" required><br>
 
         <label for="phone">Phone:</label><br>
-        <input type="text" name="phone:" id="phone:"><br>
+        <input type="tel" name="phone" id="phone" required><br>
 
-        <label for="message">Message:</label><br>
-        <textarea name="Message" id="Message"></textarea><br>
+        <label for="Message">Message:</label><br>
+        <textarea name="Message" id="Message" required></textarea><br>
 
         <input type="submit" value="Send Message">
 </form>
